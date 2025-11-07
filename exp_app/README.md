@@ -15,3 +15,6 @@ Este proyecto consiste en la construcción de una hoja de vida modular desarroll
    ```bash
 
    git clone https://github.com/Alejo-081/exp_app.git
+
+## Captura de interfaz grafica
+![alt text](src/assets/image.png)
