@@ -1,7 +1,7 @@
-import CabeceraCV from "./CabeceraCV";
-import Perfil from "./Perfil";
-import Experiencia from "./Experiencia";
-import Educacion from "./Educacion";
+import CabeceraCV from "./Componentes/CabeceraCV";
+import Perfil from "./Componentes/Perfil";
+import Experiencia from "./Componentes/Experiencia";
+import Educacion from "./Componentes/Educacion";
 
 function hoja() {
   return (
