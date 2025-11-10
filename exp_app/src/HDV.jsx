@@ -2,6 +2,7 @@ import CabeceraCV from "./Componentes/CabeceraCV";
 import Perfil from "./Componentes/Perfil";
 import Experiencia from "./Componentes/Experiencia";
 import Educacion from "./Componentes/Educacion";
+import StackTecnologias from "./Componentes/stackTecnologias";
 
 function hoja() {
   return (
@@ -10,6 +11,7 @@ function hoja() {
       <Perfil />
       <Experiencia />
       <Educacion />
+      <StackTecnologias />
     </div>
   );
 }
