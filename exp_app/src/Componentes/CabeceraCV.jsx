@@ -1,10 +1,18 @@
-function CabeceraCV() {
+import React from 'react';
+
+const CabeceraCV = ({ nombre, cargo, ciudad, contacto }) => {
+  const { email, telefono, linkedin } = contacto || {};
+
   return (
     <header>
-      <h1>Alejandro Gomez Garcia</h1>
-      <h2>Desarrollador en proceso</h2>
-      <p> 3002993827 |444alejogarcia@gmail.com | Medellín, Colombia</p>
+      <h1>{nombre}</h1>
+      <p>{cargo}</p>
+      <p>{ciudad}</p>
+      <p>
+        {email} | {telefono} | <a href={`https://${linkedin}`} target="_blank" rel="noreferrer">{linkedin}</a>
+      </p>
     </header>
-  );
-}
+  );
+};
+
 export default CabeceraCV;
