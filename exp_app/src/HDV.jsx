@@ -1,4 +1,5 @@
 import React from 'react';
+import "./main.jsx";
 import CabeceraCV from './componentes/CabeceraCV';
 import Perfil from './componentes/Perfil';
 import Experiencia from './componentes/Experiencia';
