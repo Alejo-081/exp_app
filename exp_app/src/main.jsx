@@ -1,10 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './HDV.css'
-import HOJA from './HDV.jsx'
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './HDV';
+import './index.css';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <HOJA />
-  </StrictMode>,
-)
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

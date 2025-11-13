@@ -20,3 +20,10 @@ Este proyecto consiste en la construcción de una hoja de vida modular desarroll
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
+
+
+# CV React
+
+Proyecto React modular con componentes reutilizables que reciben datos mediante props.
+Se aplicó desestructuración de props en todos los componentes para facilitar la lectura
+y el mantenimiento del código.
